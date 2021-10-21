@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: rgb(18, 36, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 36, 0, 1) 0%,
+    rgba(9, 113, 121, 1) 100%,
+    rgba(255, 0, 0, 1) 100%
+  );
+}
+
+textarea,
+.preview {
+  min-height: 300px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.title {
+  margin: 24px 0;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  color: white;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left,
+.right {
+  width: 40%;
+}
